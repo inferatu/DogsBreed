@@ -1,4 +1,4 @@
-from main_functions import print_hello_world
+import  main_functions
 
 
 class Dogs:
@@ -6,5 +6,7 @@ class Dogs:
         self.dog_breed = dog_breed
 
     def call_hello_world(self):
-        print_hello_world()
+        main_functions.print_hello_world()
 
+    def call_true(self):
+        main_functions.print_true()
