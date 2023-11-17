@@ -1,7 +1,6 @@
-from main_functions import print_hello_world
+import dogs
 
-print_hello_world()
-print(True)
-print(False)
+my_dogs = dogs.Dogs('Husky')
 
-print(1, 2, 3, '123123')
+my_dogs.call_hello_world()
+my_dogs.call_true()
